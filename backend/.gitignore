@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Prisma & Database
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
+
+# Build output
+dist/
+.out/
+
+# Uploads folder (if storing images locally)
+uploads/
+
+# Cache and temp files
+.cache/
+tmp/
+*.swp
+.DS_Store
+Thumbs.db
