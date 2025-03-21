@@ -1,13 +1,20 @@
-### 📜 **README.md (Root)**
+### 📜 README.md (Root)
 
 ```markdown
 # 📸 Full Stack Image Gallery
 
-This is a full-stack image upload and management system built with **React (Frontend)** and **Node.js with Prisma ORM (Backend)**. Users can **upload, view, download, copy, and delete images** in a structured gallery with pagination and authentication.
+This is a full-stack image upload and management system built with
+React (Frontend)
+
+Node.js with Prisma ORM (Backend).
+
+Users can upload, view, download, copy, and delete images
+
+in a structured gallery with pagination and authentication.
 
 ## 🚀 Tech Stack
 
-### **Frontend:**
+### Frontend:
 
 - React.js
 
@@ -19,7 +26,7 @@ This is a full-stack image upload and management system built with **React (Fron
 
 - React Router (Navigation)
 
-### **Backend:**
+### Backend:
 
 - Node.js + Express.js
 
@@ -37,43 +44,37 @@ This is a full-stack image upload and management system built with **React (Fron
 
 ## 🔐 Authentication
 
-- Users must **log in** to upload and manage images.
+- Users must log in to upload and manage images.
 
-- Authentication is handled using **JWT tokens**.
+- Authentication is handled using JWT tokens.
 
 - Private routes ensure only authenticated users can access the gallery.
 
 ## 📸 Features
 
-✅ **User Authentication** (Login/Register with JWT)
+✅ User Authentication (Login/Register with JWT)
 
-✅ **Upload Images** (Multer for file handling)
+✅ Upload Images (Multer for file handling)
 
-✅ **View Images** (Paginated gallery)
+✅ View Images (Paginated gallery)
 
-✅ **Download Images**
+✅ Download Images
 
-✅ **Copy Image Link**
+✅ Copy Image Link
 
-✅ **Delete Images**
+✅ Delete Images
 
-✅ **Persist State with Redux-Persist**
+✅ Persist State with Redux-Persist
 
 ## 📜 API Endpoints
 
-| Method | Endpoint | Description |
-
-|--------|----------------|--------------------------|
-
-| POST | `/api/auth/register` | Register a new user |
-
-| POST | `/api/auth/login` | User login (returns JWT) |
-
-| GET | `/api/files/:pageNo` | Get images (pagination) |
-
-| POST | `/api/files/upload` | Upload an image |
-
-| DELETE | `/api/files/:id` | Delete an image |
+| Method | Endpoint             | Description              |
+| ------ | -------------------- | ------------------------ |
+| POST   | `/api/auth/register` | Register a new user      |
+| POST   | `/api/auth/login`    | User login (returns JWT) |
+| GET    | `/api/files/:pageNo` | Get images (pagination)  |
+| POST   | `/api/files/upload`  | Upload an image          |
+| DELETE | `/api/files/:id`     | Delete an image          |
 
 ## 🚀 Future Improvements
 
@@ -85,7 +86,7 @@ This is a full-stack image upload and management system built with **React (Fron
 
 ---
 
-### ✅ **What This README Covers**
+### ✅ What This README Covers
 
 - Project overview
 
